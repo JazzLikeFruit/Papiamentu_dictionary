@@ -1,13 +1,14 @@
 1. searchpage
     -> search for words
-        -> getting back words with accent
+        -> getting back words with accent -> changing db to mysql https://pythonfusion.com/switch-database-django/
         -> only getting exact matches or words that start with that word
         -> include starts with when searching for words that have lidword in it. (dutch)
+        -> model after dictionary.com
     -> change languages
         -> implement language in word search
         -> add language to query
     -> suggest words
-    -> serch for words in url
+    -> search for words in url
 
 2. Result page
     -> display all results of search 
