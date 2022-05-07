@@ -22,8 +22,11 @@ def word_api(resquest, api_word):
         word_meaning = Words.objects.get(word=api_word)
         return HttpResponse(f'<h1>{word_meaning.meaning}</h1>')
     except:
+
+        return HttpResponse(f'<h1>word not found</h1>')
         # return suggestions
-        word_meaning = Words.objects.filter(word__contains=api_word).all()
-        for word in word_meaning:
-            dict[word.word] = word.meaning
-        return HttpResponse(f'<h1>{dict}</h1>')
+
+        # word_meaning = Words.objects.filter(word__contains=api_word).all()
+        # for word in word_meaning:
+        #     dict[word.word] = word.meaning
+        # return HttpResponse(f'<h1>{dict}</h1>')

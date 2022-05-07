@@ -12,6 +12,7 @@
 
 2. Result page
     -> display all results of search 
+        -> direct maches only and the rest as suggestions
     -> order result
     -> translation of word
     -> searching for other words
