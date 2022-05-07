@@ -3,3 +3,4 @@ Django==4.0.4
 PyMySQL==1.0.2
 sqlparse==0.4.2
 Heroku
+django_heroku
