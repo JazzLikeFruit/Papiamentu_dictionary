@@ -134,6 +134,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Heroku specific additions
-# This will update the variables in your local namespace with values based on your project layout and the environment variables.
+# This will update the variables in your local namespace with values based on your project layout and the environment
 import django_heroku
 django_heroku.settings(locals())
