@@ -122,7 +122,7 @@ USE_I18N = True
 
 USE_TZ = True
 
-
+l
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
@@ -132,3 +132,8 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Heroku specific additions
+# This will update the variables in your local namespace with values based on your project layout and the environment variables.
+import django_heroku
+django_heroku.settings(locals())
