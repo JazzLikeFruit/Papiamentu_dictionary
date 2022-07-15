@@ -5,3 +5,5 @@ db.sqlite3
 static
 .envgit
 Procfile
+__pychace__
+heroku run python manage.py createsuperuser
