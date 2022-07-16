@@ -4,7 +4,6 @@ from django.db import models
 
 class Languages(models.Model):  
     name = models.CharField(max_length=100)
-    country = models.CharField(max_length=100, null = True)
 
 class Word_list(models.Model):
     id = models.CharField(max_length=100, primary_key=True)
