@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Languages
+from .models import Languages, Words
 
 # Register your models here.
 
